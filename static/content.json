@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Le gite en images",
+    "type": "pictures",
+    "content": [
+      {
+        "src": "exterieur02-red.jpg",
+        "name": "Vue du jardin"
+      }
+    ]
+  }, {
+    "title": "En quelques mots",
+    "type": "text",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Nous vous accueillons dans notre gite 4 étoiles de 4 personnes situé à Corbie dans la Vallée de Somme, nous sommes situés façe aux étangs de la Barette en pleine zone protégée classée Natura 2000."
+      }, {
+        "type": "paragraph",
+        "text": "Vous y trouverez calme et tranquillité et en chaque saison vous pourrez assister à de magnifiques levers de soleil sur les étangs."
+      }, {
+        "type": "paragraph",
+        "text": "4 vélos sont mis à votre dispositon pour vous évader dans ce coin de nature."
+      }
+    ]
+  }, {
+    "title": "Les détails",
+    "type": "text",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Gîte 4 étoiles de 110m² pour 4 personnes*."
+      }, {
+        "type": "paragraph",
+        "text": "Tarifs semaine : 470€"
+      }, {
+        "type": "paragraph",
+        "text": "Prix tout inclus (draps, linge de toilette, 4 vélos, ménage)."
+      }, {
+        "type": "paragraph",
+        "text": "Réservation par mail : <a href=\"mailto:gitelesetangsdelabarette@hotmail.fr\">gitelesetangsdelabarette@hotmail.fr</a>"
+      }, {
+        "type": "paragraph",
+        "text": "Ou par téléphone au : +33 (0)3 60 28 13 83"
+      }, {
+        "type": "italic",
+        "text": "* Possibilité couchage d'appoint (clic-clac 2 personnes)"
+      }
+    ]
+  }, {
+    "title": "Plan",
+    "type": "map",
+    "content": []
+  }, {
+    "title": "Aux alentours",
+    "type": "list",
+    "content": [
+      "L'abbatiale Saint Pierre à Corbie",
+      "Le belvédère Sainte Colette à Corbie",
+      "Les étangs de la Barette à Corbie",
+      "L'église de la Neuville",
+      "Le musée des amis du Vieux Corbie",
+      "Le chemin de halage à pied où à vélo",
+      "Le musée et mémorial Australien à Villers-Bretonneux",
+      "Le mémorial Australien de Le Hamel",
+      "L'hôtel de ville de Corbie",
+      "Les Puits tournants à Fréchencourt"
+    ]
+  }, {
+    "title": "A visiter",
+    "type": "list",
+    "content": [
+      "Les monuments de la grande guerre (Circuit du souvenir)",
+      "Le musée \"Somme 1916\" à Albert",
+      "Le musée \"Historial de la grande guerre\" à Péronne",
+      "La cathédrale d'Amiens",
+      "Le parc ornithologique du Marquenterre",
+      "\"Samara\" le grand parc naturel de la préhistoire",
+      "Les hortillonnages d'Amiens en barque où à pied",
+      "La maison de l'oiseau à Cayeux sur Mer",
+      "La Baie de Somme à cheval où à pied",
+      "La basilique d'Albert"
+    ]
+  }, {
+    "title": "Les lieux à visiter en photos",
+    "type": "pictures",
+    "content": []
+  }, {
+    "type": "footer",
+    "content": [
+      "Pascal & Sandra LECLERCQ",
+      "Gite « Les étangs de la Barette »",
+      "15 Route de Vaux 80800 CORBIE",
+      "Tél : +33 (0)3 60 28 13 83 / Mail : gitelesetangsdelabarette@hotmail.fr",
+      "Ce site web utilise les technologies suivantes:",
+      "Vue.js Copyright © 2014-2017 Evan You",
+      "Sass Copyright (c) 2006-2016 Hampton Catlin, Natalie Weizenbaum, and Chris Eppstein",
+      "Vue-Carousel Copyright (c) 2016 - SSENSE"
+    ]
+  }
+]

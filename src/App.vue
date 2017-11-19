@@ -8,9 +8,7 @@
         Le gite en images
       </h1>
       <div class="content">
-        <pictures-slider class="pictures-container" source="gite">
-          TODO Photos gite
-          ..
+        <pictures-slider class="pictures-container" :pictures="pictures">
         </pictures-slider>
       </div>
     </section>
@@ -137,10 +135,42 @@
 </template>
 
 <script>
+import axios from 'axios';
 import PicturesSlider from '@/components/PicturesSlider';
 
 export default {
   name: 'app',
+  data() {
+    return {
+      content: [],
+      pictures: [{
+        src: 'exterieur02-red.jpg',
+        name: 'Vue du jardin',
+      }, {
+        src: 'exterieur02-red.jpg',
+        name: 'Vue du jardin',
+      }, {
+        src: 'exterieur02-red.jpg',
+        name: 'Vue du jardin',
+      }, {
+        src: 'exterieur02-red.jpg',
+        name: 'Vue du jardin',
+      }, {
+        src: 'exterieur02-red.jpg',
+        name: 'Vue du jardin',
+      },
+      ],
+    };
+  },
+  created() {
+    axios.get('/static/content.json')
+      .then((data) => {
+        console.log('data', data);
+      })
+      .catch((error) => {
+        console.log('error', error);
+      });
+  },
   components: {
     PicturesSlider,
   },

@@ -13,43 +13,14 @@ import { Carousel, Slide } from 'vue-carousel';
 export default {
   name: 'pictures-slider',
   props: {
-    source: {
-      type: String,
-      default: '',
-      required: true,
-    },
-  },
-  data() {
-    return {
-      pictures: [],
-    };
-  },
-  watch: {
-    source() {
-      this.fetchPictures();
+    pictures: {
+      type: Array,
+      default() {
+        return [];
+      },
     },
   },
   methods: {
-    fetchPictures() {
-      console.log('fetch pictures from source', this.source);
-      this.pictures = [{
-        src: 'exterieur02-red.jpg',
-        name: 'Vue du jardin',
-      }, {
-        src: 'exterieur02-red.jpg',
-        name: 'Vue du jardin',
-      }, {
-        src: 'exterieur02-red.jpg',
-        name: 'Vue du jardin',
-      }, {
-        src: 'exterieur02-red.jpg',
-        name: 'Vue du jardin',
-      }, {
-        src: 'exterieur02-red.jpg',
-        name: 'Vue du jardin',
-      },
-      ];
-    },
     getPictureSource(src) {
       return require(`../assets/${src}`);
     },
@@ -57,9 +28,6 @@ export default {
   components: {
     Carousel,
     Slide,
-  },
-  created() {
-    this.fetchPictures();
   },
 };
 </script>
