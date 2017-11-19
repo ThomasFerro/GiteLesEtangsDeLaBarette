@@ -1,7 +1,12 @@
 <template>
   <carousel :per-page="1" :per-page-custom="[[800, 2]]">
-    <slide class="slide" v-for="picture in pictures" :key="picture.name">
-      <img :src="getPictureSource(picture.src)" :title="picture.name" :alt="picture.name"></img>
+    <template v-if="content && content.length > 0">
+      <slide class="slide" v-for="picture in content" :key="picture.name">
+        <img :src="getPictureSource(picture.src)" :title="picture.name" :alt="picture.name"></img>
+      </slide>
+    </template>
+    <slide class="slide" v-else>
+      Aucune image disponible
     </slide>
   </carousel>
 </template>
@@ -13,7 +18,7 @@ import { Carousel, Slide } from 'vue-carousel';
 export default {
   name: 'pictures-slider',
   props: {
-    pictures: {
+    content: {
       type: Array,
       default() {
         return [];
@@ -22,7 +27,11 @@ export default {
   },
   methods: {
     getPictureSource(src) {
-      return require(`../assets/${src}`);
+      let imageSource = '';
+      try {
+        imageSource = require(`../assets/${src}`);
+      } catch (e) { } // eslint-disable-line no-empty
+      return imageSource;
     },
   },
   components: {

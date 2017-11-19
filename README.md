@@ -1,11 +1,9 @@
 # TODO
 
+- Import all content from old website
 - Content Manager:
-  - Read the content file;
   - Display the content depending on the type :
-    - Text;
-    - Pictures;
-    - List;
-    - Footer;
-    - Maps.
+    - Maps with Google API.
   - Manage links (`a` tags).
+- Error manager
+- Documentation

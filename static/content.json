@@ -50,7 +50,7 @@
   }, {
     "title": "Plan",
     "type": "map",
-    "content": []
+    "content": {}
   }, {
     "title": "Aux alentours",
     "type": "list",
@@ -86,6 +86,7 @@
     "type": "pictures",
     "content": []
   }, {
+    "title": "Mentions légales",
     "type": "footer",
     "content": [
       "Pascal & Sandra LECLERCQ",
