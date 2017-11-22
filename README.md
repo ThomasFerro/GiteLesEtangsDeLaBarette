@@ -1,8 +1,9 @@
 # TODO
 
-- Import all content from old website
+- Import all content from old website;
 - Content Manager:
-  - Display the content depending on the type :
-    - Maps with Google API.
+  - Map :
+    - First version with an image;
+    - Final version using Google API.
 - Error manager
 - Documentation

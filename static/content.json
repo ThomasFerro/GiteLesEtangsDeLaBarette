@@ -4,8 +4,47 @@
     "type": "pictures",
     "content": [
       {
+        "src": "exterieur01-red.jpg",
+        "name": "Gite de face"
+      }, {
         "src": "exterieur02-red.jpg",
         "name": "Vue du jardin"
+      }, {
+        "src": "exterieur03-red.jpg",
+        "name": "Vue depuis le salon"
+      }, {
+        "src": "exterieur04-red.jpg",
+        "name": "Vue extérieure"
+      }, {
+        "src": "exterieur05-red.jpg",
+        "name": "Vue extérieure"
+      }, {
+        "src": "interieur01-red.jpg",
+        "name": "Coin salon"
+      }, {
+        "src": "interieur02-red.jpg",
+        "name": "Salle à vivre"
+      }, {
+        "src": "interieur03-red.jpg",
+        "name": "Chambre 1"
+      }, {
+        "src": "interieur04-red.jpg",
+        "name": "Chambre 2"
+      }, {
+        "src": "interieur05-red.jpg",
+        "name": "Hall d'entrée"
+      }, {
+        "src": "matin01-red.jpg",
+        "name": "Lever de soleil 1"
+      }, {
+        "src": "matin02-red.jpg",
+        "name": "Lever de soleil 2"
+      }, {
+        "src": "1910.png",
+        "name": "En 1910"
+      }, {
+        "src": "zoneNatura.png",
+        "name": "Gite situé en zone Natura 2000"
       }
     ]
   }, {
@@ -84,7 +123,54 @@
   }, {
     "title": "Les lieux à visiter en photos",
     "type": "pictures",
-    "content": []
+    "content": [
+      {
+        "src": "abbatiale.jpg",
+        "name": "Abbatiale de Corbie"
+      }, {
+        "src": "baie.jpg",
+        "name": "Baie de la Somme"
+      }, {
+        "src": "cathedrale.jpg",
+        "name": "Cathédrale d'Amiens"
+      }, {
+        "src": "hortillonnages.jpg",
+        "name": "Hortillonnages"
+      }, {
+        "src": "leHamel.jpg",
+        "name": "Mémorial Australien de Le Hamel"
+      }, {
+        "src": "villersBretonneux.jpg",
+        "name": "Mémorial Australien de Villers-Bretonneux"
+      }, {
+        "src": "museeSomme1916.jpg",
+        "name": "Musée Somme 1916 à Albert"
+      }, {
+        "src": "samara.jpg",
+        "name": "Parc Samara"
+      }, {
+        "src": "picardieACheval.jpg",
+        "name": "Picardie à Cheval"
+      }, {
+        "src": "HdvCorbie.jpg",
+        "name": "Hôtel de Ville de Corbie"
+      }, {
+        "src": "MemoTerre-Neuvien.jpg",
+        "name": "Mémorial Terre-Neuvien de Beaumont Hamel"
+      }, {
+        "src": "histoGrandeGuerre.jpg",
+        "name": "Historial de la grande guerre à Peronne"
+      }, {
+        "src": "statueStColette.jpg",
+        "name": "Statue Sainte Colette à Corbie"
+      }, {
+        "src": "puitsTournants.png",
+        "name": "Puits tournants à Fréchencourt"
+      }, {
+        "src": "chemin_halage.jpg",
+        "name": "Promenade sur le chemin de Halage"
+      }
+    ]
   }, {
     "title": "Mentions légales",
     "type": "footer",

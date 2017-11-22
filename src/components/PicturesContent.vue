@@ -50,6 +50,7 @@ export default {
 
   img {
     height: 200px;
+    max-width: 100%;
   }
 }
 </style>
