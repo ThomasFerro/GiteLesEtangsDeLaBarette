@@ -89,7 +89,10 @@
   }, {
     "title": "Plan",
     "type": "map",
-    "content": {}
+    "content": {
+      "src": "map.png",
+      "link": "https://www.google.fr/maps/place/15+Route+de+Vaux,+80800+Corbie"
+    }
   }, {
     "title": "Aux alentours",
     "type": "list",
