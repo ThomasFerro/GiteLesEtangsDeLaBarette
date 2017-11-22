@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p v-for="element in content">
+    <p v-for="element in content" :key="element">
       {{ element }}
     </p>
   </footer>
@@ -20,7 +20,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 p {
   margin: 0;
 }

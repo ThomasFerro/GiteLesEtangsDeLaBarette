@@ -1,13 +1,15 @@
 <template>
   <div class="content">
-    <!-- TODO : Manage element.type and links -->
-    <p v-for="element in content" :key="element.text">
-      {{ element.text }}
-    </p>
+    <component v-for="element in content" :key="element.text"
+      :is="getHtmlTag(element)"
+      v-html="formatText(element.text)">
+    </component>
   </div>
 </template>
 
 <script>
+import { textToHtml } from '@/tools/textFormatting';
+
 export default {
   name: 'text-content',
   props: {
@@ -16,6 +18,20 @@ export default {
       default() {
         return [];
       },
+    },
+  },
+  methods: {
+    formatText(text) {
+      return textToHtml(text);
+    },
+    getHtmlTag(element) {
+      switch (element && element.type) {
+        case 'italic':
+        case 'i':
+          return 'i';
+        default:
+          return 'p';
+      }
     },
   },
 };
