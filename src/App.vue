@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      TODO ICON
+      <img :src="logoSrc" alt="Les Etangs de la Barette"></img>
     </header>
     <content-manager :content="content">
     </content-manager>
@@ -18,9 +18,16 @@ export default {
   data() {
     return {
       content: [],
+      logoSrc: '',
     };
   },
   created() {
+    // Logo
+    try {
+      this.logoSrc = require('./assets/logo.png');
+    } catch (e) { } // eslint-disable-line no-empty
+
+    // Content
     // TODO : Error management
     axios.get('/static/content.json')
       .then((data) => {
@@ -74,6 +81,16 @@ html {
   @media (min-width: $max-width-medium) {
     header, section, footer {
       width: $section-width-large;
+    }
+  }
+
+  header {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+
+    img {
+      height: 100%;
     }
   }
 }
