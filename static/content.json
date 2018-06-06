@@ -40,6 +40,24 @@
         "src": "matin02-red.jpg",
         "name": "Lever de soleil 2"
       }, {
+        "src": "image1.jpeg",
+        "name": ""
+      }, {
+        "src": "image2.jpeg",
+        "name": ""
+      }, {
+        "src": "image3.jpeg",
+        "name": ""
+      }, {
+        "src": "image4.jpeg",
+        "name": ""
+      }, {
+        "src": "image5.jpeg",
+        "name": ""
+      }, {
+        "src": "image6.jpeg",
+        "name": ""
+      }, {
         "src": "1910.png",
         "name": "En 1910"
       }, {
@@ -60,6 +78,9 @@
       }, {
         "type": "paragraph",
         "text": "4 vélos sont mis à votre dispositon pour vous évader dans ce coin de nature."
+      }, {
+        "type": "paragraph",
+        "text": "Grand parking privatif avec accès portail télécommandé"
       }
     ]
   }, {
