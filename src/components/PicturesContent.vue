@@ -1,8 +1,8 @@
 <template>
   <carousel :per-page="1" :per-page-custom="[[800, 2]]">
     <template v-if="content && content.length > 0">
-      <slide class="slide" v-for="picture in content" :key="picture.name">
-        <img :src="getPictureSource(picture.src)" :title="picture.name" :alt="picture.name"></img>
+      <slide class="slide" v-for="(picture, index) in content" :key="index">
+        <img :src="getPictureSource(picture.src)" :title="picture.name" :alt="picture.name"/>
       </slide>
     </template>
     <slide class="slide" v-else>
@@ -14,24 +14,17 @@
 
 <script>
 import { Carousel, Slide } from 'vue-carousel';
+import PictureLoadingMixin from '@/mixins/pictureLoading';
 
 export default {
   name: 'pictures-slider',
+  mixins: [PictureLoadingMixin],
   props: {
     content: {
       type: Array,
       default() {
         return [];
       },
-    },
-  },
-  methods: {
-    getPictureSource(src) {
-      let imageSource = '';
-      try {
-        imageSource = require(`../assets/${src}`);
-      } catch (e) { } // eslint-disable-line no-empty
-      return imageSource;
     },
   },
   components: {

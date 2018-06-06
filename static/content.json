@@ -66,6 +66,36 @@
       }
     ]
   }, {
+    "title": "En partenariat avec...",
+    "type": "partners",
+    "content": [
+      {
+        "title": "Mairie de Corbie",
+        "link": "http://www.mairie-corbie.fr/",
+        "image": "corbie_logo.png"
+      }, {
+        "title": "Somme 14-18",
+        "link": "http://www.somme14-18.com/",
+        "image": "somme1418_logo.png"
+      }, {
+        "title": "Toursime en Val de Somme",
+        "link": "http://www.tourisme-corbie-bocage-3-vallees.com/",
+        "image": "OT_logo.png"
+      }, {
+        "title": "Somme Tourisme",
+        "link": "http://www.somme-tourisme.com/",
+        "image": "sommeTourisme_logo.png"
+      }, {
+        "title": "Musée Australien",
+        "link": "http://www.museeaustralien.com/",
+        "image": "logo_musee_australien.gif"
+      }, {
+        "title": "Facebook",
+        "link": "https://www.facebook.com/pages/Gite-les-%C3%A9tangs-de-la-barette-corbie/460045130824919",
+        "image": "Fb_logo.png"
+      }
+    ]
+  }, {
     "title": "En quelques mots",
     "type": "text",
     "content": [

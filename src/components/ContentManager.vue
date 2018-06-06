@@ -9,6 +9,7 @@
 
 <script>
 import PicturesContent from './PicturesContent';
+import PartnersContent from './PartnersContent';
 import TextContent from './TextContent';
 import ListContent from './ListContent';
 import MapContent from './MapContent';
@@ -24,16 +25,13 @@ export default {
       },
     },
   },
-  computed: {
-    isContentTypeArray() {
-      return Array.isArray(this.content);
-    },
-  },
   methods: {
     getComponentFromType(type) {
       switch (type) {
         case 'pictures':
           return 'pictures-content';
+        case 'partners':
+          return 'partners-content';
         case 'list':
           return 'list-content';
         case 'map':
@@ -47,6 +45,7 @@ export default {
   },
   components: {
     PicturesContent,
+    PartnersContent,
     TextContent,
     MapContent,
     ListContent,
