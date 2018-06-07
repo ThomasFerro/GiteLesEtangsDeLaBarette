@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <img :src="logoSrc" alt="Les Etangs de la Barette"></img>
+      <img :src="logoSrc" alt="Les Etangs de la Barette"/>
     </header>
     <content-manager :content="content">
     </content-manager>
@@ -46,7 +46,7 @@ export default {
 <style lang="scss">
 @import 'main';
 
-$app-background-color: $light-white;
+$app-background-color: #eadfd6;
 $app-font-color: $light-black;
 $max-width-small: 800px;
 $max-width-medium: 1240px;
@@ -85,7 +85,7 @@ html {
   }
 
   header {
-    height: 150px;
+    height: 200px;
     display: flex;
     justify-content: center;
 

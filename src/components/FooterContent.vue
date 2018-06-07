@@ -24,4 +24,8 @@ export default {
 p {
   margin: 0;
 }
+
+footer {
+  font-size: 12px;
+}
 </style>
